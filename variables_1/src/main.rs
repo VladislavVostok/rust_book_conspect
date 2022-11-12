@@ -16,6 +16,8 @@ fn main() {
     // 2. Константы
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
+    println!("{}", THREE_HOURS_IN_SECONDS);
+
     // 3. Затенение переменной
     let x = 5;
     let x = x + 1;
@@ -24,7 +26,7 @@ fn main() {
         println!("The value of x in the inner scope is: {x}");
     }
 
-    pritnln!("The value of x is: {x}");
+    println!("The value of x is: {x}");
 
     // Отличие между mut и затенением, при слове mut мы можем изменять значение одного и тогоже типа.
     // При затенении мы можем переиспользвать имя переменной и расположить туда значение другого типа.
