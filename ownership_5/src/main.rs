@@ -83,23 +83,61 @@ fn main() {
     // Логический тип данных bool, возможные значения которого true и false,
     // Все числа с плавающей запятой, такие как f64,
     // Символьный тип char,
-    // Кортежи, но только если они содержат типы, которые также реализуют Copy. Например, (i32, i32) будет с Copy, но кортеж (i32, String) уже нет.
+    // Кортежи, но только если они содержат типы, которые также реализуют Copy. 
+    // Например, (i32, i32) будет с Copy, но кортеж (i32, String) уже нет.
 
 
     // ВЛАДЕНИЕ И ФУНКЦИИ
-    let s = String::from("hello");
-    takes_ownership(s);
+    // 1 группа примеров
+    let s = String::from("hello");      // s входит в область видимости 
+    takes_ownership(s);                 // значение s передаётся внутрь функции
+                                        // Здесь переменная s более не действует
 
-    let x = 5;
-    makes_copy(x);
-    println!("{}", x);
-    //println!("{}", s);
-}
+    let x = 5;                          // x входит в область видимости
+    makes_copy(x);                      // будет перемещен в функцию, но i32 - это Copy, 
+                                        // поэтому можно продолжать использовать x после
+    println!("{}", x);                  
 
-fn takes_ownership(some_string: String){
+    //ВОЗВРАЩЕНИЕ ЗНАЧЕНИЙ И ОБЛАСТЬ ВИДИМОСТИ
+    // 2 группа примеров
+    let s1 = gives_ownership();         // gives_ownership перемещает возвращаемое значение в s1
+    let s2 = String::from("hello");     // s2 входит в область видимости 
+
+    let s3 = takes_and_gives_back(s2);  // s2 перемещается в takes_and_gives_back, который также перемещает его возвращаемое значение в s3
+
+
+    // ВОЗВРАТ ПРАВА ВЛАДЕНИЯ НА ПАРАМЕТРЫ
+    // 3 группа примеров
+    let s1 = String::from("hello");
+    let (s2, len) = calculate_length(s1);
+    println!("The length of '{}' is {}.", s2, len)
+
+}                           //1 группа примеров. Здесь x выходит за рамки, затем s. Но поскольку значение s было перемещено, ничего особенного не произошло.
+                            //2 группа примеров. Здесь s3 выходит за пределы области видимости и отбрасывается. s2 был перемещен, так что ничего не происходит. s1 выходит за пределы области видимости и отбрасывается.
+
+// 1 группа примеров
+fn takes_ownership(some_string: String){    // some_string входит в область видимости 
     println!("{}", some_string);
+}   //Здесь some_string выходит за рамки и вызывается «drop». Резервная память освобождается.
+
+fn makes_copy(some_integer: i32){       // some_integer входит в область видимости.
+    println!("{}", some_integer);
+}   // Здесь some_integer выходит за рамки. Ничего особенного не происходит.
+
+
+// 2 группа примеров
+
+fn gives_ownership() -> String {
+    let some_string = String::from("yours");
+    some_string
 }
 
-fn makes_copy(some_integer: i32){
-    println!("{}", some_integer);
+// Эта функция принимает строку и возвращает её
+fn takes_and_gives_back(a_string: String) -> String {
+    a_string
+}
+
+// 3 группа примеров
+fn calculate_length(s: String) -> (String, usize) {
+    let length = s.len();   // функция len() вернёт размер строки
 }
