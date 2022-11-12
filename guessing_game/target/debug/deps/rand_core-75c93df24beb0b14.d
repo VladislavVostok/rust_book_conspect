@@ -1,0 +1,12 @@
+D:\Desktop\rust-projects\guessing_game\target\debug\deps\rand_core-75c93df24beb0b14.rmeta: C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\lib.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\block.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\error.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\impls.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\le.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\os.rs
+
+D:\Desktop\rust-projects\guessing_game\target\debug\deps\librand_core-75c93df24beb0b14.rlib: C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\lib.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\block.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\error.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\impls.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\le.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\os.rs
+
+D:\Desktop\rust-projects\guessing_game\target\debug\deps\rand_core-75c93df24beb0b14.d: C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\lib.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\block.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\error.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\impls.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\le.rs C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\os.rs
+
+C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\lib.rs:
+C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\block.rs:
+C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\error.rs:
+C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\impls.rs:
+C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\le.rs:
+C:\Users\salih\.cargo\registry\src\github.com-1285ae84e5963aae\rand_core-0.6.4\src\os.rs:
