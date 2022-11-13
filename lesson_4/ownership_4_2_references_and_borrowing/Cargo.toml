@@ -1,5 +1,5 @@
 [package]
-name = "ownership_5_1"
+name = "ownership_4_2_references_and_borrowing"
 version = "0.1.0"
 edition = "2021"
 

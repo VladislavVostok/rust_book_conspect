@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "ownership_5_2_references_and_borrowing"
+name = "ownership_4_1_wtf_ownership"
 version = "0.1.0"
