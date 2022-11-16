@@ -1,3 +1,10 @@
+/*
+    4.      Понимание Владения (Understanding Ownership)
+    4.2.    Ссылки и заимствование (References and Borrowing)
+*/
+
+
+
 fn main() {
 
     /***********************************/
