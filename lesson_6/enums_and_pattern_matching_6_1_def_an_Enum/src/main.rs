@@ -1,3 +1,8 @@
+/*
+    6.      Перечисления и сопоставление с образцом (Enums and Pattern Matching)
+    6.1.    Определение перечисления (Defining an Enum)
+*/
+
 
 /*
    Перечисления и сопоставление с образцом  (Enums and Pattern Matching)
@@ -184,6 +189,31 @@ fn main() {
 
 
     // Перечисление Option и его преимущества перед Null-значениями (The Option Enum and Its Advantages Over Null Values)
+    
+    /*
+        Перечисление Option<T> представляет концепцию наличия значения или его отсутствие. В коде эта концепция представлена в виде:
+
+        enum Option<T> {
+            None,           - Отсутствие значения
+            Some(T),        - Наличие значения
+        }
+
+        Данное перечисление входит в стандартную библиотеку (prelude) и его можно использовать без явного ввода в область видимости 
+    */
+
+    let some_number = Some(5);      // В some_number тип Option<i32>
+    let some_char = Some('e');      // В some_char тип Option<char>
+    let absent_number: Option<i32> = None;      // Для того чтобы в переменную absent_number разместить None нам нужно явно задать тип для Option<тип_данных>
+
+
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+    let sum = x + y;
+    //          ^ no implementation for `i8 + Option<i8>`
+
+    // Так как Option<T> (Option<i8>) и T (i8) относятся к разным типам. Компилятор данной операции не допустит.
+
+
 
 
 }
