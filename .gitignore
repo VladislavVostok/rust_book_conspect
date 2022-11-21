@@ -45,7 +45,7 @@ no_llvm_build
 /build-rust-analyzer/
 /dist/
 /unicode-downloads
-/target
+/target/
 /src/bootstrap/target
 /src/tools/x/target
 # Created by default with `src/ci/docker/run.sh`
