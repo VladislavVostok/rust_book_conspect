@@ -1,0 +1,1 @@
+E:\programming\RustProjects\rust_book_conspect\lesson_7\restaurant_4\target\debug\librestaurant_4.rlib: E:\programming\RustProjects\rust_book_conspect\lesson_7\restaurant_4\src\front_of_house\hosting.rs E:\programming\RustProjects\rust_book_conspect\lesson_7\restaurant_4\src\front_of_house.rs E:\programming\RustProjects\rust_book_conspect\lesson_7\restaurant_4\src\lib.rs

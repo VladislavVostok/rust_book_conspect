@@ -1,0 +1,1 @@
+E:\programming\RustProjects\rust_book_conspect\lesson_8\collections_8_2_strings\target\debug\collections_8_2_strings.exe: E:\programming\RustProjects\rust_book_conspect\lesson_8\collections_8_2_strings\src\main.rs
