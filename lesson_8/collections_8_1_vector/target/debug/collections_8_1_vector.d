@@ -1,1 +1,0 @@
-E:\programming\RustProjects\rust_book_conspect\lesson_8\collections_8_1_vector\target\debug\collections_8_1_vector.exe: E:\programming\RustProjects\rust_book_conspect\lesson_8\collections_8_1_vector\src\main.rs

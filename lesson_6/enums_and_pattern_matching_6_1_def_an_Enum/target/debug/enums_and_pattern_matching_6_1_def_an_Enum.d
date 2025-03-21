@@ -1,1 +1,0 @@
-E:\programming\RustProjects\rust_book_conspect\lesson_6\enums_and_pattern_matching_6_1_def_an_Enum\target\debug\enums_and_pattern_matching_6_1_def_an_Enum.exe: E:\programming\RustProjects\rust_book_conspect\lesson_6\enums_and_pattern_matching_6_1_def_an_Enum\src\main.rs
